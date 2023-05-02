@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link type="javascript" href="./index.js">
+  <link type="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+    <style>
+    #map { 
+        height: 800px;
+        background-color: #ccc;
+    }
+  </style>
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+   integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+</head>
+<body>
+
+  <form>
+    <select id="business">
+        <option value="restaurant">Restaurants</option>
+        <option value="coffee">Coffee Shops</option>
+        <option value="hotel">Hotels</option>
+        <option value="market">Markets</option>
+    </select>
+    <button id="submit">Submit</button>
+</form>
+<div id="map"></div>
+  
+</body>
+</html>
